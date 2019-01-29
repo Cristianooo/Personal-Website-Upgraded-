@@ -1,0 +1,146 @@
+body {
+    background-image:url(pics/CoverPageDesktop.jpg);
+    background-size:cover;
+}
+#rectangle1{
+    height:5px;
+    width:25px;
+    background-color:#575757;
+    margin-top:5%;
+}
+#rectangle2{
+    margin-top:20px;
+    height:5px;
+    width:50px;
+    margin-left:10px;
+    background-color:#00ccff;
+}
+#rectangle3{
+    margin-top:20px;
+    height:5px;
+    width:25px;
+    background-color:#575757;
+}
+#rectangle4 {
+    margin-top: 40px;
+    height: 5px;
+    width: 40px;
+    background-color: #fff200;
+}
+#rectangle5 {
+    margin-top: 20px;
+    height: 5px;
+    width: 70px;
+    margin-left:10px;
+    background-color: #575757;
+}
+#rectangle6 {
+    margin-top: 20px;
+    height: 5px;
+    width: 620px;
+    margin-left:20px;
+    background-color: #00ccff;
+}
+#rectangle7 {
+    margin-top: 20px;
+    height: 5px;
+    width: 100px;
+    margin-left:10px;
+    background-color: #575757;
+}
+#rectangle8 {
+    margin-top: 20px;
+    height: 5px;
+    width: 40px;
+    background-color: #00ccff;
+}
+#rectangle9 {
+    margin-top: 40px;
+    height: 5px;
+    width: 60px;
+    background-color: #575757;
+}
+#rectangle10 {
+    margin-top: 20px;
+    height: 5px;
+    width: 150px;
+    margin-left:10px;
+    background-color: #fff200;
+}
+#rectangle11 {
+    margin-top: 20px;
+    height: 5px;
+    width: 500px;
+    margin-left:20px;
+    background-color: #575757;
+}
+#rectangle12 {
+    margin-top: 20px;
+    height: 5px;
+    width: 100px;
+    margin-left:10px;
+    background-color: #575757;
+}
+#rectangle13 {
+    margin-top: 20px;
+    height: 5px;
+    width: 30px;
+    background-color: #fff200;
+}
+#rectangle14 {
+    margin-top: 40px;
+    height: 5px;
+    width: 60px;
+    background-color: #575757;
+}
+#rectangle15 {
+    margin-top: 20px;
+    height: 5px;
+    width: 200px;
+    margin-left:10px;
+    background-color: #575757;
+}
+#rectangle16{
+    margin-top:20px;
+    height:5px;
+    width:50px;
+    background-color:#00ccff;
+}
+#title {
+    position: fixed;
+    margin-left: 160px;
+    font-family: hansiefrough;
+    color:#00ccff;
+    font-size:60px;
+    margin-top:20px;
+}
+#subtitle {
+    position: fixed;
+    margin-left: 200px;
+    font-family: hansiefrough;
+    color: #00ccff;
+    font-size: 30px;
+    margin-top: 10px;
+}
+#enterBtn {
+    position: fixed;
+    margin-left: 80px;
+    font-family: hansiefrough;
+    color: #00ccff;
+    font-size: 25px;
+    border:none;
+    background:none;
+    margin-top:30px;
+    cursor:pointer;
+	text-decoration: none;
+}
+#enterBtn:hover{
+    color:#575757;
+}
+#coverPhoto{
+    border-radius:30%;
+    width:30%;
+    float:right;
+    margin-right:10%;
+
+}

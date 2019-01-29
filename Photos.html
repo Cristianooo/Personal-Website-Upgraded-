@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+	<link href="designStyles.css" rel="stylesheet" type="text/css" />
+    <link href="Fonts/fontSheet.css" rel="stylesheet" type="text/css" />
+    <script src="mainActions.js" type="text/javascript"></script>
+</head>
+
+<body style="background-image:url(pics/DesignBG.jpg); background-size:cover; background-attachment: fixed;">
+	<div id="topBar">
+       <a href="Index.html" class = "signature"> <img style="height:80%; margin-top:10px;" src="pics/Signature.png" /> </a>
+       <div class="tabs">
+         <a href ="Home.html" style="line-height: 80px;" class="sidenavTabs btn1">HOME</a>
+         <a href ="Code.html" style="line-height: 80px;" class="sidenavTabs btn2">CODE</a> 
+		 <a href ="Websites.html" style="line-height: 80px;" class="sidenavTabs btn3">WEBSITES</a> 
+	 	<a href ="Design.html" style="line-height: 80px;" class="sidenavTabs btn4">DESIGN</a>
+		</div>
+			
+        </div>
+		<h1>
+			My PhOtOs	
+		</h1>
+
+        <div class="DesignBG">
+            <div class="row"> 
+              <div class="column">
+				  <a href="#!" onclick="openModal('bridge');return false;"><img id="bridge" style="width:100%" src="pics/myShots/bridge.jpg" alt="bridge"  /> </a>
+				  <a href="#!" onclick="openModal('board');return false;"><img id="board" style="width:100%" src="pics/myShots/board.jpg" alt="board"  /> </a>
+				  <a href="#!" onclick="openModal('micaela');return false;"><img id="micaela" style="width:100%" src="pics/myShots/micaela.jpg" alt="micaela"  /> </a>
+				  
+              </div>
+              <div class="column">
+				  <a href="#!" onclick="openModal('needles');return false;"><img id="needles" style="width:100%" src="pics/myShots/needles.jpg" alt="needles"  /> </a>
+				  <a href="#!" onclick="openModal('lights');return false;"><img id="lights" style="width:100%" src="pics/myShots/lights.jpg" alt="lights"  /> </a>
+				  <a href="#!" onclick="openModal('tara');return false;"><img id="tara" style="width:100%" src="pics/myShots/TaraIndySlope.jpg" alt="tara"  /> </a>
+				  <a href="#!" onclick="openModal('dom');return false;"><img id="dom" style="width:100%" src="pics/myShots/dom.jpg" alt="dom"  /> </a>
+				  <a href="#!" onclick="openModal('bella');return false;"><img id="bella" style="width:100%" src="pics/myShots/bella.jpg" alt="bella"  /> </a>
+				  
+              </div> 
+			  <div class="column">
+				  <a href="#!" onclick="openModal('poles');return false;"><img id="poles" style="width:100%" src="pics/myShots/IMG_1160-Edit.jpg" alt="poles"  /> </a>
+				  <a href="#!" onclick="openModal('justin');return false;"><img id="justin" style="width:100%" src="pics/myShots/justin.jpg" alt="justin"  /> </a>
+				  <a href="#!" onclick="openModal('camaro');return false;"><img id="camaro" style="width:100%" src="pics/camaro.jpg" alt="camaro"  /> </a>
+				  <a href="#!" onclick="openModal('meBoard');return false;"><img id="meBoard" style="width:100%" src="pics/myShots/meAndBoard.jpg" alt="meBoard"  /> </a>
+				  
+              </div>  
+            </div>
+            <div id="myModal" class="modal" onclick="closeModal();return false;">
+				<div class="imageHolder">
+                	<img class="modal-content" id="img01">
+				</div>
+               </div>
+        </div>
+</body>
+</html>

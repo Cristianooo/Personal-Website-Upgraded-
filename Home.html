@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+	<link href="mainStyles.css" rel="stylesheet" type="text/css" />
+    <link href="Fonts/fontSheet.css" rel="stylesheet" type="text/css" />
+    <script src="mainActions.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="topBar">
+  <a href="Index.html" class = "signature"> <img style="height:80%; margin-top:10px;" src="pics/Signature.png" /> </a>
+  <div class="tabs">
+    <button type="button" class="sidenavTabs btn1" onclick="scrollToElement('topBar')">ABOUT</button>
+    <button type="button" class="sidenavTabs btn2" onclick="scrollToElement('projects')">PROJECTS</button>
+    <a href ="Code.html" style="line-height: 80px;" class="sidenavTabs btn3">CODE</a> 
+	 <a href ="Websites.html" style="line-height: 80px;" class="sidenavTabs btn4">WEBSITES</a> 
+	 <a href ="Design.html" style="line-height: 80px;" class="sidenavTabs btn5">DESIGN</a>
+    <button type="button" class="sidenavTabs btn6" onclick="scrollToElement('contact')">CONTACT ME</button>
+  </div>
+</div>
+  <div id="about" class="aboutBack">
+    <div class ="AboutPic"> <img src="pics/cristiano.jpg" style="height:190px; width:190px; border-radius: 50%; margin-top: 4%; margin-right:4%;" /> </div>
+    <div class="AboutText">
+      <h2 class="headers" >ABOUT ME</h2>
+    </div>
+    <div class="AboutParagraph">
+      <p style=" font-size:155%;"> So you want to know some more about me? Well, I am a junior attending Chapman University. I was raised in Las Vegas, Nevada, and re-located to Palos Verdes, California for high school. 
+        Having been interested in computers for many years, I continue to focus on the field by majoring in Software Engineering.&nbsp; 
+        I understand that a passion for computers requires funding and business skills; therefore, I am pursuing a minor in Business Administration. 
+        I am incredibly passionate about the field I am in and am thrilled to have the opportunity to learn more about it. 
+        In my free time, I love playing soccer, surfing, snowboarding and learning about new software to toy with like unity, photoshop, and visual studio. </p>
+	  </div>
+</div>
+<div class="resume">
+  <figure class="resumeCode"> <a href="pics/CF_Resume.pdf" download="CF_Resume.pdf" style="width:141px; text-decoration: none;" title="CFirmani_Resume"> 
+	  <img src="pics/résumé.png" style=" height: 141px; width: 141px; border-radius:50%;" />
+    <figcaption class="linkCaption">Check out my Résumé</figcaption>
+    </a> </figure>
+</div>
+<div class="github">
+  <figure class="resumeCode"> <a href="https://github.com/Cristianooo" style="width:141px; text-decoration: none;"> 
+	  <img src="pics/github.png" style="height:141px; width:141px; border-radius:50%;" /><figcaption class="linkCaption">Check out my Github</figcaption>
+    </a> </figure>
+</div>
+<div id="projects" class="projects">
+  <h2 class="headers" style="padding-top:15%; display:block; text-align:right; margin-right:20%; color:white;">PrOjects</h2>
+  <div class="projectFlex">
+    <div class="projectChild">
+		<button class="codeBtn" onclick="goToPage('Code.html')"></button>
+    </div>
+    <div class="projectChild">
+		<button class="websiteBtn" onclick="goToPage('Websites.html')"></button>
+    </div>
+    <div class="projectChild">
+		<button class="designBtn" onclick="goToPage('Design.html')"></button>
+    </div>
+  </div>
+</div>
+<div id="contact" class="contactMe">
+  <h2 class="contactHead">COntact Me</h2>
+  <div class="contactInfo">
+    <div style="font-size:200%;font-family:'Courier New'"> Phone: (310) 819-2066 </div>
+    <div style="font-size:200%; padding-top:40px; font-family:'Courier New'"> Email: firma103@mail.chapman.edu </div>
+  </div>
+	<div>
+	</div>
+</div>
+</body>
+</html>

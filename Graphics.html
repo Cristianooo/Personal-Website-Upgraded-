@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+	<link href="designStyles.css" rel="stylesheet" type="text/css" />
+    <link href="Fonts/fontSheet.css" rel="stylesheet" type="text/css" />
+    <script src="mainActions.js" type="text/javascript"></script>
+</head>
+
+<body style="background-image:url(pics/DesignBG.jpg); background-size:cover; background-attachment: fixed;">
+	<div id="topBar">
+       <a href="Index.html" class = "signature"> <img style="height:80%; margin-top:10px;" src="pics/Signature.png" /> </a>
+       <div class="tabs">
+         <a href ="Home.html" style="line-height: 80px;" class="sidenavTabs btn1">HOME</a>
+         <a href ="Code.html" style="line-height: 80px;" class="sidenavTabs btn2">CODE</a> 
+		 <a href ="Websites.html" style="line-height: 80px;" class="sidenavTabs btn3">WEBSITES</a> 
+	 	<a href ="Design.html" style="line-height: 80px;" class="sidenavTabs btn4">DESIGN</a>
+       </div>
+		
+        </div>
+		<h1>
+			My Graphics	
+		</h1>
+        <div class="DesignBG">
+            <div class="row"> 
+              <div class="column">
+                <a href="#" onclick="openModal('Rekt');return false;"><img id="Rekt" style="width:100%" src="pics/photoshop/rektLogo.jpg" alt="The logo for my app, as well as all other images, were designed completely by me."  /> </a>
+                <a href="#" onclick="openModal('deltaQueen');return false;"><img id="deltaQueen" style="width:100%" src="pics/DeltaQueen.jpg" alt="The cover page for Delta Queen, a fundraising event that I designed all of the graphics for."  /> </a>
+                
+              </div>
+              <div class="column">
+                <a href="#" onclick="openModal('james');return false;"><img id="james" style="width:100%" src="pics/photoshop/jamesRodriguez2.jpg" alt="A wallpaper I made for the famous soccer player, James Rodriguez"  /> </a>
+                <a href="#" onclick="openModal('profile');return false;"><img id="profile" style="width:100%" src="pics/photoshop/profile picture low.jpg" alt="My homage to the art of the first version I learned photoshop on- CS6."  /> </a>
+                
+              </div>  
+				<div class="column">
+                <a href="#" onclick="openModal('deltsRip');return false;"><img id="deltsRip" style="width:100%" src="pics/photoshop/deltsRipnDip.jpg" alt="The logo I created for my fraternity rush program of 2018."  /> </a>
+				<a href="#" onclick="openModal('jungle');return false;"><img id="jungle" style="width:100%" src="pics/photoshop/jungle jar.jpg" alt="A simple jungle wallpaper I made for fun!"  /> </a>
+                
+              </div>  
+            </div>
+            <div id="myModal" class="modal" onclick="closeModal();return false;">
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+               </div>
+        </div>
+</body>
+</html>

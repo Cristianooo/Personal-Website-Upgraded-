@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+	<link href="mainStyles.css" rel="stylesheet" type="text/css" />
+	<link href="Animations.css" rel="stylesheet" type="text/css" />
+    <link href="Fonts/fontSheet.css" rel="stylesheet" type="text/css" />
+    <script src="mainActions.js" type="text/javascript"></script>
+</head>
+
+<body style="background-image:url(pics/DesignBG.jpg); background-size:cover;">
+	<div id="topBar">
+       <a href="Index.html" class = "signature"> <img style="height:80%; margin-top:10px;" src="pics/Signature.png" alt="signature" /> </a>
+       <div class="tabs">
+         <a href ="Home.html" style="line-height: 80px;" class="sidenavTabs btn1">HOME</a>
+         <a href ="Code.html" style="line-height: 80px;" class="sidenavTabs btn2">CODE</a> 
+		 <a href ="Websites.html" style="line-height: 80px;" class="sidenavTabs btn3">WEBSITES</a> 
+	 	<a href ="Design.html" style="line-height: 80px;" class="sidenavTabs btn4">DESIGN</a>
+       </div>
+
+        </div>
+	
+	<div id="decider" class="slideDown">
+		<div class="deciderChild" id="photoContainer">
+			<img src="pics/camIcon.png" id="camIcon"/>
+			<div class="photoBG">
+				<button class="childButton" onClick="goToPage('Photos.html')">PhOtOgraphy</button>
+			</div>
+		</div>
+		<div class="deciderChild" id="designContainer" >
+			<img src="pics/designIcon.png" id="designIcon"/>
+			<div class="designBG">
+				<button class="childButton" onClick="goToPage('Graphics.html')">Graphic Design</button>
+			</div>
+			</div>
+	</div>
+
+</body>
+</html>
